@@ -1,0 +1,342 @@
+/*======================================
+Custom Styles
+======================================*/
+
+
+
+/*  ======================================
+01.  Fix some Bootstrap elements (DO NOT REMOVE)
+====================================== */
+
+img{
+	
+    border: 0 none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.thumbnail > img, .thumbnail a > img{
+	width:100%
+}
+
+
+.padding{
+padding: 20px
+	}
+	
+	
+.input-medium, textarea {
+    width: 80%;
+}
+
+/*  ======================================
+02. STRUCTURE
+====================================== */
+
+
+.container{
+	background-color:#333333
+}
+
+
+
+.logo{
+	text-align:center
+	
+}
+
+
+footer{
+	background-color:#1c1c1c;
+	color:white;	
+	margin-top:2%
+}
+
+IMG.resume {
+	display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+
+
+/*
+
+header{
+	
+}
+
+
+.banner{
+}
+
+
+.middle{
+}
+
+*/
+
+
+
+
+/*  ======================================
+03.  TYPOGRAPHY
+====================================== */
+
+h1, h2, h3, h4, h5, h6{
+	color: #ffffff;
+	font-family: 'Teko', sans-serif;
+}
+.robo{
+	font-family: 'Roboto Mono', sans-serif;
+}
+li {
+  color: #bbd90b; /* bullet color */
+}
+li span {
+  color: #fff; /* text color */
+}
+.skill{
+	padding: 10px;
+	margin-left: 10px;
+	font-size: 120%;
+	}
+body{
+	color: #ffffff;
+	font-family: 'Teko', sans-serif;
+	background-color:#1c1c1c;
+}
+
+.featurette-heading {
+    margin-top: 120px;
+	 font-size: 50px;
+}
+
+.featurette-divider {
+	margin: 80px 0;
+	background-color:#1c1c1c;
+	height: 2px;
+}
+
+
+/*  ======================================
+04. NAVIGATION
+====================================== */
+
+/*//////////////// Page Color Schemes /////////////////*/
+
+
+
+
+/* /////////////////////////////////////////////////// */
+
+.navbar {
+    /* margin-bottom: 0px; 
+	removes 20px at the bottom of the navigation bar */
+}
+
+
+
+/* Main Navigation Container*/
+.navbar {
+	background-color: #1c1c1c; 
+}
+
+
+
+/* Navigation link text color */
+.navbar .nav > li > a {
+    color: #ffffff;
+}
+
+/* Navigation link text color on hover */
+
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+    background-color: #bbd90b;
+    color: #fff;
+}
+
+/*  comment code above to the next comment for different color nav tabs
+#home:hover changes home to a different color
+{
+background-color: #000000;
+  color: #ffffff;
+}
+
+#about:hover
+{
+background-color: #ffffff;
+  color: #000;
+}
+ */
+
+
+
+/* //////////    Collapsed mobile navigation   ///////////////*/
+
+/* Website's Name */
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #bbd90b;
+}
+
+
+/* Collapsed navigation open menu button border */
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+  color: #000;
+}
+
+
+/* Color of the collapsed navigation open menu icon bar */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* Collapsed navigation open menu button on hover */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background-color: #bbd90b;
+    color: #fff;
+}
+
+
+input, select, textarea{
+    color: #000000;
+}
+
+textarea:focus, input:focus {
+    color: #000000;
+}
+
+
+
+/*  ======================================
+05.  BOOTSTRAP ELEMENTS
+====================================== */
+
+
+/* ///////  ACCORDIONS / COLLAPSABLE GROUP //////////*/
+
+.green {
+	    background-color: #bbd90b;
+	    }
+
+.panel-default > .panel-heading {
+	background-color: #1c1c1c;
+	border-color: #bbd90b;
+	color: #fff;
+}
+
+.panel-body {
+	color:#000;
+	}
+
+
+/* ///////  TABS //////////*/
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus  {
+    background-color: #bbd90b;
+	color:#000;
+    border-color: #ddd;
+}
+
+
+
+.nav-tabs > li > a {
+    background-color: #1c1c1c;
+	color:#fff;
+}
+
+
+.nav > li > a:hover, .nav > li > a:focus, .nav-tabs > li.active > a:hover {
+    background-color: #1c1c1c;
+    text-decoration: none;
+	color:#fff;
+}
+
+
+
+.tab-content{
+	background-color:#fff
+	
+}
+
+.tab-pane{
+	color: #000;
+	}
+
+.tab-content {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+.blackfont
+{
+	color: #000;
+	}
+
+
+
+/* ///////  BUTTONS //////////*/
+.btn-primary {
+    background-color: #1c1c1c;
+    border-color: #1c1c1c;
+    color: #fff;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+	background-color: #1c1c1c;
+	border-color: #1c1c1c;
+	color: #FFFFFF;
+}
+
+/*////////////////////////////////////////////////////////////////////
+======================================
+06. Responsive Styles (Media Queries)
+======================================
+////////////////////////////////////////////////////////////////////*/
+
+    /* Large desktop */
+    @media (min-width: 1200px) { 
+	
+	
+	 }
+     
+	 
+	 
+    /* Portrait tablet to landscape and desktop */
+    @media (min-width: 768px) and (max-width: 979px) {
+		
+		}
+		
+		
+		
+     
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 767px) {
+		
+
+	 .featurette-heading {
+    margin-top: 0px;
+      }
+
+
+	.featurette-divider{
+	margin: 20px 0
+	}
+
+
+	 
+	}
+	
+	
+	
+	
+	 
+    /* Landscape phones and down */
+    @media (max-width: 480px) {
+		
+	
+		}
